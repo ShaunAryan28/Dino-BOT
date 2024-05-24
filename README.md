@@ -32,8 +32,8 @@ Run the following code:
 
 
 step2-
->`for episode in range(10): `
-   ` obs = env.reset()`
+```for episode in range(10): 
+    obs = env.reset()
     -done = False
     -total_reward = 0
     -while not done: 
@@ -43,6 +43,6 @@ step2-
         -total_reward += reward
 -print('Total Reward for episode {} is {}'.format(episode, total_reward))
 -time.sleep(2)
-
+```
 ##END##
 
