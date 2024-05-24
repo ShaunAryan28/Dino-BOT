@@ -13,22 +13,24 @@ DINO Game Playing AI Bot
 -gym,  
 -mss,  
 
--Output: 
--The bot will start playing the game and will try to learn how to jump over cacti and avoid obstacles. The bot will also print out its score and the number of steps it took to reach that score.
+-Output:  
+The bot will start playing the game and will try to learn how to jump over cacti and avoid obstacles. The bot will also print out its score and the number of steps it took to reach that score.
 
--NOTE: You must have a FOLDER named Train and logs in the same directory.
+>NOTE: You must have a FOLDER named Train and logs in the same directory.
 
-##usage
--NOTE: Open the Dino game(Chrome://Dino) in the background, minimize your notebook,  move the window to the edge and then run it.
-"model.learn(total_timesteps=9000000, callback=callback)"
--- Makes the model run for the required timesteps and learn(the higher the better)
+##usage  
+>NOTE: Open the Dino game(Chrome://Dino) in the background, minimize your notebook,  move the window to the edge and then run it.
+
+>"model.learn(total_timesteps=9000000, callback=callback)"  
+>Makes the model run for the required timesteps and learn(the higher the better)
 
 -I have made a few logs for testing, so you could use one of the pretrained model --> (https://github.com/ShaunAryan28/Dino-BOT)
 just Download the best_model and save it in the same directory.
 
 -To use it:
 Run the following code:
->step1- ` model.load('Train/best_model_88000') `
+step1-  
+``` model.load('Train/best_model_88000') ```
 
 
 step2-
