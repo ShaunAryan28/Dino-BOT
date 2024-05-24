@@ -2,16 +2,16 @@
 
 DINO Game Playing AI Bot
 
-*This is a bot that can play the Chrome dinosaur game using artificial intelligence. The bot uses a deep Q-learning algorithm to learn how to jump over cacti and avoid obstacles.
+*This is a bot that can play the Chrome dinosaur game using artificial intelligence. The bot uses a deep Q-learning algorithm to learn how to jump over cacti and avoid obstacles.  
 
--Requirements:
+*Requirements:  
 -Python 3.6+, 
--NumPy, 
--OpenCV, 
--Matplotlib, 
--Pytesseract, 
--gym, 
--mss, 
+-NumPy,  
+-OpenCV,   
+-Matplotlib,  
+-Pytesseract,  
+-gym,  
+-mss,  
 
 -Output: 
 -The bot will start playing the game and will try to learn how to jump over cacti and avoid obstacles. The bot will also print out its score and the number of steps it took to reach that score.
