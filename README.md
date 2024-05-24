@@ -27,13 +27,13 @@ DINO Game Playing AI Bot
 just Download the best_model and save it in the same directory.
 
 -To use it:
->Run the following code:
--step1- ` model.load('Train/best_model_88000') `
+Run the following code:
+>step1- ` model.load('Train/best_model_88000') `
 
 
--step2-
-`-for episode in range(10): 
-    -obs = env.reset()
+step2-
+>`for episode in range(10): `
+   ` obs = env.reset()`
     -done = False
     -total_reward = 0
     -while not done: 
@@ -43,6 +43,6 @@ just Download the best_model and save it in the same directory.
         -total_reward += reward
 -print('Total Reward for episode {} is {}'.format(episode, total_reward))
 -time.sleep(2)
-`
+
 ##END##
 
