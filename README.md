@@ -19,7 +19,7 @@ The bot will start playing the game and will try to learn how to jump over cacti
 ### NOTE:  
 >You must have a FOLDER named Train and logs in the same directory.
 
-## usage  
+## USAGE  
 ### NOTE:  
 >Open the Dino game(Chrome://Dino) in the background, minimize your notebook,  move the window to the edge and then run it.
 
